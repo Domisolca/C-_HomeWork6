@@ -11,7 +11,7 @@
 }
 
 Console.Write("Введите числа через запятую: ");
-string stringOfNum = Console.ReadLine();
+string? stringOfNum = Console.ReadLine();
 string numStr = String.Empty;
 int count = 0;
 
