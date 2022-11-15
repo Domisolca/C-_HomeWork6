@@ -22,6 +22,7 @@ for (int i = 0; i < stringOfNum.Length; i++)
         Console.WriteLine("Вы ввели числа неправильно!");
         return;
     }
+
     if (stringOfNum[i] == ',' && numStr == String.Empty)
     {
         Console.WriteLine("Вы ввели числа неправильно!");
@@ -49,6 +50,11 @@ if (numStr != String.Empty)
     {
         count++;
     }
+}
+else
+{
+    Console.WriteLine("Вы ввели числа неправильно!");
+    return;
 }
 
 Console.WriteLine($"Число положительных чисел = {count}");
